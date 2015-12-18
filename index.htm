@@ -26,7 +26,7 @@
 
 	<meta name="description" content="my description :)" />
 
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
 	<!--
 
@@ -49,6 +49,15 @@
 	if(window.location.protocol != "https:")
 		window.location.protocol = "https";
 	</script>
+	<style> body {
+ 			background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIUlEQVQIW2NkYGDYzMDA4MsABYxQGia4GSYAEgcLYqgAAJ9KBWus7cLfAAAAAElFTkSuQmCC") repeat, url('bg.jpg') no-repeat;
+			background-clip: border-box;
+			background-origin: border-box;
+			color:white;
+			text-shadow:0 0 1em black, 1px 4px 6px #123, 0 0 0 #000, 1px 4px 6px #123;
+			box-shadow:inset 0 0 3em black;
+	 	}
+	</style>
 </head>
 
 <!--
@@ -156,10 +165,10 @@
 		down (4 times) to make it back to its correct size.
 
 	-->
-	<div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-		<span class="try">made with impress.js*</span>
+	<div id="title" class="step" data-x="-6666" data-y="0" data-scale="10">
+		<span class="try">software engineer</span>
 		<h1>mert akengin</h1>
-		<span class="footnote">open-source software engineer</span>
+		<span class="footnote">made with impress.js*</span>
 	</div>
 
 	<!--
@@ -170,14 +179,9 @@
 		element should be rotated by 90 degrees clockwise.
 
 	-->
-	<div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-		<p>It's a <strong>presentation tool</strong> <br/>
-		inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-		and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
-	</div>
-
-	<div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-		<p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+	<div id="me" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="25">
+		<p>an open source lover, developer and hacker<sup>*</sup><br/>
+		i'm studying software engineering at bahcesehir university currently...</p>
 	</div>
 
 	<!--
@@ -189,8 +193,8 @@
 		positioned far away from us (by 3000px).
 
 	-->
-	<div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-		<p>and <b>tiny</b> ideas</p>
+	<div id="work" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+		<span>i currently work on <a href="//abbox.com" target=_blank >abbox.com</a> but i'm open to new offers<sup>*</sup>. I mostly do server-side/backend stuff, creating console applications and spending my time while optimizing them to be faster in execution.</span>
 	</div>
 
 	<!--
@@ -213,8 +217,11 @@
 		Only one current step has the `present` class.
 
 	-->
-	<div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-		<p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+	<div id="inf" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+		<p>BTW i learned and used <b class="positioning">C, C++</b>,<br />
+		<b class="positioning">Java, Python</b> and<br />
+		<b class="positioning">HTML, PHP, JS, CSS</b><br />
+		i dont even mention <b class="scaling">bash, make</b></p>
 	</div>
 
 	<div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
@@ -262,8 +269,8 @@
 		CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
 
 	-->
-	<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-	</div>
+	<!-- div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+	</div -->
 
 </div>
 
