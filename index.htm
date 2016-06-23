@@ -49,16 +49,20 @@
 	if(window.location.protocol != "https:")
 		window.location.protocol = "https";
 	</script>
-	<style> body {
+	<style> html {
  			background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIUlEQVQIW2NkYGDYzMDA4MsABYxQGia4GSYAEgcLYqgAAJ9KBWus7cLfAAAAAElFTkSuQmCC"), url('bg.jpg');
 			background-repeat: repeat, no-repeat;
-			background-position: center center;
-			background-size: contain, cover;
+			background-position: center, center;
+			background-size: auto, cover;
 			background-attachment: local, fixed;
 			color:white;
 			text-shadow:0 0 1em black, 1px 4px 6px #123, 0 0 0 #000, 1px 4px 6px #123;
 			box-shadow:inset 0 0 3em black;
 	 	}
+		body {
+			background:none;
+		}
+		@media (max-width:1024px) { html { background-size: 1px 1px, cover; } }
 	</style>
 </head>
 
